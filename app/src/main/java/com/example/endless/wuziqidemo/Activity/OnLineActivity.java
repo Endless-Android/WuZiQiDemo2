@@ -199,6 +199,12 @@ public class OnLineActivity extends AppCompatActivity {
         });
 
 
+        inflate.findViewById(R.id.btn_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     private void hideProgressDialog() {
